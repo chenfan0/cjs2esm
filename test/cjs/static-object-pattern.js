@@ -1,0 +1,1 @@
+const { readFile, readFileSync: rfs } = require("node:fs")

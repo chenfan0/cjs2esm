@@ -1,0 +1,22 @@
+{
+  "name": "cjs2esm",
+  "version": "1.0.0",
+  "description": "a tool to convert cjs to esm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.8",
+    "@babel/generator": "^7.24.8",
+    "@babel/template": "^7.24.7",
+    "@babel/traverse": "^7.24.8",
+    "@babel/types": "^7.24.8"
+  },
+  "devDependencies": {
+    "@types/babel-traverse": "^6.25.10",
+    "vitest": "^2.0.3"
+  }
+}
