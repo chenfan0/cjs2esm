@@ -18,5 +18,9 @@
   "devDependencies": {
     "@types/babel-traverse": "^6.25.10",
     "vitest": "^2.0.3"
+  },
+  "cjs2esm": {
+    "input": ["./test/cjs"],
+    "output": "esm"
   }
 }
